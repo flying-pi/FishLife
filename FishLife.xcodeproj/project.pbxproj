@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A6AC5B1E7E694300DF1745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6AC5A1E7E694300DF1745 /* AppDelegate.swift */; };
+		67A6AC5D1E7E694300DF1745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6AC5C1E7E694300DF1745 /* ViewController.swift */; };
+		67A6AC601E7E694300DF1745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A6AC5E1E7E694300DF1745 /* Main.storyboard */; };
+		67A6AC621E7E694300DF1745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A6AC611E7E694300DF1745 /* Assets.xcassets */; };
+		67A6AC651E7E694300DF1745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A6AC631E7E694300DF1745 /* LaunchScreen.storyboard */; };
+		67A6AC711E7E6FB000DF1745 /* FishLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6AC701E7E6FB000DF1745 /* FishLifeViewController.swift */; };
+		67A6AC731E7E707E00DF1745 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6AC721E7E707E00DF1745 /* SettingViewController.swift */; };
+		67A6AC751E7E8B3400DF1745 /* IRenderElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6AC741E7E8B3400DF1745 /* IRenderElement.swift */; };
+		67A6AC771E7E8B9000DF1745 /* FieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A6AC761E7E8B9000DF1745 /* FieldCell.swift */; };
+		67A8AB7C1E7E926D0034DE21 /* FishPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8AB7B1E7E926D0034DE21 /* FishPool.swift */; };
+		67A8AB7E1E7ECDE70034DE21 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8AB7D1E7ECDE70034DE21 /* Fish.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67A6AC571E7E694300DF1745 /* FishLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A6AC5A1E7E694300DF1745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A6AC5C1E7E694300DF1745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A6AC5F1E7E694300DF1745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67A6AC611E7E694300DF1745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A6AC641E7E694300DF1745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67A6AC661E7E694300DF1745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A6AC701E7E6FB000DF1745 /* FishLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishLifeViewController.swift; sourceTree = "<group>"; };
+		67A6AC721E7E707E00DF1745 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../SettingViewController.swift; sourceTree = "<group>"; };
+		67A6AC741E7E8B3400DF1745 /* IRenderElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRenderElement.swift; sourceTree = "<group>"; };
+		67A6AC761E7E8B9000DF1745 /* FieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldCell.swift; sourceTree = "<group>"; };
+		67A8AB7B1E7E926D0034DE21 /* FishPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishPool.swift; sourceTree = "<group>"; };
+		67A8AB7D1E7ECDE70034DE21 /* Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A6AC541E7E694300DF1745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A6AC4E1E7E694300DF1745 = {
+			isa = PBXGroup;
+			children = (
+				67A6AC591E7E694300DF1745 /* FishLife */,
+				67A6AC581E7E694300DF1745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A6AC581E7E694300DF1745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A6AC571E7E694300DF1745 /* FishLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A6AC591E7E694300DF1745 /* FishLife */ = {
+			isa = PBXGroup;
+			children = (
+				67A6AC721E7E707E00DF1745 /* SettingViewController.swift */,
+				67A6AC5A1E7E694300DF1745 /* AppDelegate.swift */,
+				67A6AC5C1E7E694300DF1745 /* ViewController.swift */,
+				67A6AC5E1E7E694300DF1745 /* Main.storyboard */,
+				67A6AC611E7E694300DF1745 /* Assets.xcassets */,
+				67A6AC631E7E694300DF1745 /* LaunchScreen.storyboard */,
+				67A6AC661E7E694300DF1745 /* Info.plist */,
+				67A6AC701E7E6FB000DF1745 /* FishLifeViewController.swift */,
+				67A6AC741E7E8B3400DF1745 /* IRenderElement.swift */,
+				67A6AC761E7E8B9000DF1745 /* FieldCell.swift */,
+				67A8AB7B1E7E926D0034DE21 /* FishPool.swift */,
+				67A8AB7D1E7ECDE70034DE21 /* Fish.swift */,
+			);
+			path = FishLife;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A6AC561E7E694300DF1745 /* FishLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A6AC691E7E694300DF1745 /* Build configuration list for PBXNativeTarget "FishLife" */;
+			buildPhases = (
+				67A6AC531E7E694300DF1745 /* Sources */,
+				67A6AC541E7E694300DF1745 /* Frameworks */,
+				67A6AC551E7E694300DF1745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishLife;
+			productName = FishLife;
+			productReference = 67A6AC571E7E694300DF1745 /* FishLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A6AC4F1E7E694300DF1745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yura Braiko";
+				TargetAttributes = {
+					67A6AC561E7E694300DF1745 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LPY6D4GE2E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67A6AC521E7E694300DF1745 /* Build configuration list for PBXProject "FishLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A6AC4E1E7E694300DF1745;
+			productRefGroup = 67A6AC581E7E694300DF1745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A6AC561E7E694300DF1745 /* FishLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A6AC551E7E694300DF1745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A6AC651E7E694300DF1745 /* LaunchScreen.storyboard in Resources */,
+				67A6AC621E7E694300DF1745 /* Assets.xcassets in Resources */,
+				67A6AC601E7E694300DF1745 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A6AC531E7E694300DF1745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A6AC771E7E8B9000DF1745 /* FieldCell.swift in Sources */,
+				67A6AC751E7E8B3400DF1745 /* IRenderElement.swift in Sources */,
+				67A6AC5D1E7E694300DF1745 /* ViewController.swift in Sources */,
+				67A6AC5B1E7E694300DF1745 /* AppDelegate.swift in Sources */,
+				67A6AC711E7E6FB000DF1745 /* FishLifeViewController.swift in Sources */,
+				67A6AC731E7E707E00DF1745 /* SettingViewController.swift in Sources */,
+				67A8AB7C1E7E926D0034DE21 /* FishPool.swift in Sources */,
+				67A8AB7E1E7ECDE70034DE21 /* Fish.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67A6AC5E1E7E694300DF1745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A6AC5F1E7E694300DF1745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67A6AC631E7E694300DF1745 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A6AC641E7E694300DF1745 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A6AC671E7E694300DF1745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A6AC681E7E694300DF1745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A6AC6A1E7E694300DF1745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LPY6D4GE2E;
+				INFOPLIST_FILE = FishLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flying.pi.FishLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		67A6AC6B1E7E694300DF1745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LPY6D4GE2E;
+				INFOPLIST_FILE = FishLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flying.pi.FishLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A6AC521E7E694300DF1745 /* Build configuration list for PBXProject "FishLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A6AC671E7E694300DF1745 /* Debug */,
+				67A6AC681E7E694300DF1745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A6AC691E7E694300DF1745 /* Build configuration list for PBXNativeTarget "FishLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A6AC6A1E7E694300DF1745 /* Debug */,
+				67A6AC6B1E7E694300DF1745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A6AC4F1E7E694300DF1745 /* Project object */;
+}
